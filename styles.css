@@ -76,10 +76,13 @@
   }
 
   .company-logo{
-    width: 240px;
+    width: 220px;
     height: auto;
   }
 
+  .company-logo:nth-child(1){
+    width: 260px;
+  }
   .company-logo:nth-child(4){
     width: 200px;
   }

@@ -1,15 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to diraclabs Website</h1>  
-    </main>
-  </body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>Dirac Labs</title>
+</head>
+<body>
+    <video autoplay muted loop id="video-bg">
+        <source src="./assets/video-bg.mp4" type="video/mp4">
+    </video>
+    <section class="section">
+        <div class="hero">
+            <a href="/">
+                <img src="./assets/logo.png" alt="dirac logo" id="logo">
+            </a>
+            <h1>Enabling GPS-free navigation with quantum sensing​</h1>
+        </div>
+    </section>
+    <section class="section">
+        <div class="glass-container">
+            <h2>Supported By</h2>
+            <div class="logo-grid">
+                <img src="./assets/engine.png" alt="The Engine Blueprint" class="company-logo">
+                <img src="./assets/creative.png" alt="Creative Labs" class="company-logo">
+                <img src="./assets/emergent.png" alt="Emergent Ventures" class="company-logo">
+                <img src="./assets/grad.png" alt="GradCapital" class="company-logo">
+                <img src="./assets/ashoka.png" alt="Ashoka University" class="company-logo">
+                <img src="./assets/nasa.png" alt="NASA" class="company-logo">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div>
+            <div class="footer-top">
+                <a href="/">
+                    <img src="./assets/logo.png" alt="dirac logo" id="logo">
+                </a>
+                <div class="social-grid">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/X.png" alt="dirac logo" class="social-icon">
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/linkedin.png" alt="dirac logo" class="social-icon">
+                    </a>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <a href="mailto:contact@diraclabs.com">
+                    <p>contact@diraclabs.com</p>
+                </a>
+                <p id="copyright">© 2024 Dirac Labs. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+</body>
 </html>
-

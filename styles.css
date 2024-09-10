@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;;
+  }
+  
+  body{
+    background-color: #000000;
+  }
+  
+  h1{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    text-wrap: balance;
+  }
+
+  h2{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  #video-bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height:100vh;
+    z-index: -1;
+  }
+
+  .section{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+
+ #logo{
+    height: 52px;
+    width: auto;
+  }
+
+  .glass-container{
+    background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 99.91%);
+    backdrop-filter: blur(32px);
+    border-radius: 32px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 0 120px;
+  }
+
+  .logo-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    align-content: center;
+    justify-content: center;
+  }
+  .company-logo{
+    width: 200px;
+    height: auto;
+  }
+
+  .footer{
+    background-color: #000000;
+    height: auto;
+    padding: 64px 120px;
+  }
+
+  .footer hr{
+    width: 100%;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin: 32px 0;
+  }
+  
+  .footer-top, .footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .social-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+
+  .social-icon{
+    width: 32px;
+    height: auto;
+  }
+
+  .footer-bottom a,.footer-bottom p {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  #copyright{
+    opacity: 0.6;
+  }
+
+  @media screen and (max-width: 480px) {
+  }

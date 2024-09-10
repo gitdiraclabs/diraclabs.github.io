@@ -68,15 +68,26 @@
   }
 
   .logo-grid{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 36px;
     align-content: center;
     justify-content: center;
   }
+
   .company-logo{
-    width: 200px;
+    width: 240px;
     height: auto;
+  }
+
+  .company-logo:nth-child(4){
+    width: 200px;
+  }
+  .company-logo:nth-child(5){
+    width: 200px;
+  }
+  .company-logo:nth-child(6){
+    width: 200px;
   }
 
   .footer{

@@ -21,7 +21,7 @@ document.getElementById('emailForm').addEventListener('submit', async function(e
   // Check if the email is in a valid format
   if (!emailPattern.test(email)) {
     responseMessage.textContent = 'Please enter a valid email address.';
-    responseMessage.style.color = '#e3b307';
+    responseMessage.style.color = 'orange';
     return;
   }
 

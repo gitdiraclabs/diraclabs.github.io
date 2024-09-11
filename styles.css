@@ -88,7 +88,7 @@
     display: flex;
     flex-direction: column;
     gap: 64px;
-    margin: 0 120px;
+    min-width: 70%;
   }
 
   .logo-grid{
@@ -97,6 +97,11 @@
     gap: 36px;
     align-content: center;
     justify-items: center;
+    align-items: center;
+  }
+  
+  .grid-2{
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .company-logo{
@@ -104,13 +109,11 @@
     height: auto;
   }
 
-  .company-logo:nth-child(1){
+  .engine{
     width: 260px;
   }
-  .company-logo:nth-child(4), .company-logo:nth-child(5), .company-logo:nth-child(6){
-    width: 200px;
-  }
-
+  .company-logo:nth-child(4){ width: 200px; }
+  .company-logo:nth-child(5){ width: 250px; }
   .footer{
     background-color: #000000;
     height: auto;
@@ -262,12 +265,11 @@
       width: 160px;
     }
   
-    .company-logo:nth-child(1){
+    .engine{
       width: 180px;
     }
-    .company-logo:nth-child(4), .company-logo:nth-child(5), .company-logo:nth-child(6){
-      width: 140px;
-    }
+    .company-logo:nth-child(4){ width: 140px; }
+    .company-logo:nth-child(5){ width: 160px; }
 
     .footer{
       padding: 16px 32px;
@@ -354,17 +356,15 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 8px;
     }
-  
     .company-logo{
       width: 160px;
     }
   
-    .company-logo:nth-child(1){
+    .engine{
       width: 180px;
     }
-    .company-logo:nth-child(4), .company-logo:nth-child(5), .company-logo:nth-child(6){
-      width: 140px;
-    }
+    .company-logo:nth-child(4){ width: 140px; }
+    .company-logo:nth-child(5){ width: 160px; }
 
     .footer{
       padding: 16px 32px;

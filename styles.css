@@ -18,12 +18,17 @@ body {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: clamp(24px, 5vw, 48px);
+  /* Responsive font size that scales smoothly */
   font-weight: 700;
   text-align: center;
   text-transform: capitalize;
   text-wrap: balance;
   color: #FFFFFF;
+  line-height: 1.2;
+  /* Better line height for readability */
+  margin-bottom: 0.5em;
+  /* Add some spacing below */
 }
 
 h2 {
@@ -447,5 +452,49 @@ input[type=submit]:hover {
   input[type=submit]:hover {
     background-color: #e3b307;
     cursor: pointer;
+  }
+}
+
+/* For extra small screens */
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+/* For phones */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+/* For larger phones and small tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+}
+
+/* For tablets and larger */
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
   }
 }

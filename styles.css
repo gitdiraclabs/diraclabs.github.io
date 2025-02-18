@@ -74,6 +74,9 @@ h2 {
   align-items: center;
   gap: 32px;
 }
+.left{
+  text-align: left;
+}
 
 #logo {
   height: 100px;
@@ -104,6 +107,7 @@ h2 {
   flex-direction: column;
   gap: 64px;
   min-width: 60%;
+  color: #FFFFFF;
 }
 
 .logo-grid {
@@ -186,8 +190,29 @@ h2 {
   padding: 64px 120px;
 }
 
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 64px 120px;
+  color: #FFFFFF;
+}
+
 .cta-section img {
   width: 120px;
+}
+
+.apply-button{
+  background-color: #e3b307;
+  cursor: pointer;
+  padding: 16px 32px;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 24px;
+  width: fit-content;
 }
 
 form {

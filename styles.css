@@ -120,7 +120,13 @@ h2 {
   min-width: 60%;
   color: #FFFFFF;
 }
-
+/* Add this new style for the table */
+.table {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
 .row{
   background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 99.91%);
   backdrop-filter: blur(32px);

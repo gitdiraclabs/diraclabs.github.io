@@ -39,6 +39,17 @@ h2 {
   color: #FFFFFF;
 }
 
+.active{
+  font-weight: 700;
+}
+
+.full{
+  width: 100%;
+}
+
+.footer-bottom p:hover{
+  color: #e3b307;
+}
 
 .fullscreen-video-container {
   position: relative;
@@ -108,6 +119,19 @@ h2 {
   gap: 64px;
   min-width: 60%;
   color: #FFFFFF;
+}
+
+.row{
+  background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 99.91%);
+  backdrop-filter: blur(32px);
+  border-radius: 32px;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  color: #FFFFFF;
+  max-width: 33%;
 }
 
 .logo-grid {

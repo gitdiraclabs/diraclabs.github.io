@@ -123,7 +123,7 @@ h2 {
 /* Add this new style for the table */
 .table {
     margin: 0 auto;
-    width: fit-content;
+    /*width: fit-content;*/
     display: flex;
     justify-content: center;
 }

@@ -120,12 +120,13 @@ h2 {
   min-width: 60%;
   color: #FFFFFF;
 }
+
 /* Add this new style for the table */
 .table {
     margin: 0 auto;
+    /*width: fit-content;*/
     display: flex;
     justify-content: center;
-    flex-direction: column; /* Add this if not already present */
     gap: 24px; /* Adds space between rows - adjust this value as needed */
 }
 .row {

@@ -127,7 +127,7 @@ h2 {
   padding: 64px; /* Changed to match footer */
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 100px;
   width: calc(100% - 60px); /* 100% minus left and right padding (120px * 2) */
   margin: 0 auto; /* Centers it like the footer */
   color: #FFFFFF;

@@ -123,9 +123,10 @@ h2 {
 /* Add this new style for the table */
 .table {
     margin: 0 auto;
-    /*width: fit-content;*/
     display: flex;
     justify-content: center;
+    flex-direction: column; /* Add this if not already present */
+    gap: 24px; /* Adds space between rows - adjust this value as needed */
 }
 .row {
   background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 99.91%);

@@ -128,7 +128,7 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 120px;
-  width: calc(100% - 240px); /* 100% minus left and right padding (120px * 2) */
+  width: calc(100% - 300px); /* 100% minus left and right padding (120px * 2) */
   margin: 0 auto; /* Centers it like the footer */
   color: #FFFFFF;
 }

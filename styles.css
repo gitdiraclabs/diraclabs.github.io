@@ -134,7 +134,7 @@ h2 {
   padding: 64px;
   display: flex;
   flex-direction: column;
-  align-items: center;  /* Changed to center */
+  align-items: center; /* Changed to center everything */
   gap: 12px;
   color: #FFFFFF;
   max-width: 33%;

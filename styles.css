@@ -127,7 +127,7 @@ h2 {
     /*width: fit-content;*/
     display: flex;
     justify-content: center;
-    gap: 12px; /* Adds space between rows - adjust this value as needed */
+    gap: 16px; /* Adds space between rows - adjust this value as needed */
 }
 .row {
   background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 99.91%);

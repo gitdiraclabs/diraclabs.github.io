@@ -130,7 +130,7 @@ h2 {
   gap: 64px;
   color: #FFFFFF;
   max-width: 100%; /* Prevents it from exceeding parent width */
-  margin: 0 120px; /* Matches footer's outer spacing instead of auto */
+  margin: 0 240px; /* Matches footer's outer spacing instead of auto */
   box-sizing: border-box; /* Ensures padding is included in width calculation */
 }
 

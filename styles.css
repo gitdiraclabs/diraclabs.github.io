@@ -120,6 +120,18 @@ h2 {
   min-width: 60%;
   color: #FFFFFF;
 }
+.glass-container-careers {
+  background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 99.91%);
+  backdrop-filter: blur(32px);
+  border-radius: 32px;
+  padding: 64px 120px; /* Changed to match footer */
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  width: calc(100% - 240px); /* 100% minus left and right padding (120px * 2) */
+  margin: 0 auto; /* Centers it like the footer */
+  color: #FFFFFF;
+}
 
 /* Add this new style for the table */
 .table {

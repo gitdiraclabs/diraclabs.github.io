@@ -124,12 +124,14 @@ h2 {
   background: linear-gradient(90.22deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 99.91%);
   backdrop-filter: blur(32px);
   border-radius: 32px;
-  padding: 64px; /* Changed to match footer */
+  padding: 64px 120px; /* Matches footer */
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  margin: 0 auto; /* Centers it like the footer */
+  gap: 64px;
   color: #FFFFFF;
+  max-width: 100%; /* Prevents it from exceeding parent width */
+  margin: 0 120px; /* Matches footer's outer spacing instead of auto */
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
 }
 
 /* Add this new style for the table */
